@@ -1,7 +1,7 @@
 # Statistical Analysis of Indian Cricket Team in One Day International (ODI)
 
 ## Project Overview
-This project conducts a comprehensive statistical analysis of the Indian Cricket Team's performance in One Day International (ODI) matches, focusing on batting, bowling, and team outcomes from 2019 to 2023. Led by a team of NMIMS Mumbai students (Nidhi Karambelkar, Sean Minezes, Akshay Mirani, Jash Moze, Veer Shah) under Prof. Vaibhav Vasundekar, the study uses statistical tests and indices to evaluate player and team performance, propose an ideal ODI team, and uncover data-driven insights for strategic decision-making in cricket.
+This project conducts a comprehensive statistical analysis of the Indian Cricket Team's performance in One Day International (ODI) matches, focusing on batting, bowling, and team outcomes from 2019 to 2023.The study uses statistical tests and indices to evaluate player and team performance, propose an ideal ODI team, and uncover data-driven insights for strategic decision-making in cricket.
 
 ## Objectives
 - Compare team batting performances between 2019 and 2022 using a t-test for two population means.
@@ -65,65 +65,8 @@ The analysis employs statistical tests and custom indices, implemented in Python
 - **Poisson Fit**: Catches taken follow a Poisson distribution, aiding fielding analysis.
 
 ## Setup Instructions
-1. **Prerequisites**:
-   - Python 3.8+ or R for statistical analysis.
-   - Libraries: `pandas`, `numpy`, `scipy`, `statsmodels` (Python) or `stats` (R).
-   - Dataset: Download from [ESPNcricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) or use provided CSV (if available).
-
-2. **Installation**:
-   ```bash
-   pip install pandas numpy scipy statsmodels
-   ```
-
-3. **Running the Analysis**:
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/SeanMinezes/Indian-Cricket-Team-ODI-Analysis.git
-     cd Indian-Cricket-Team-ODI-Analysis
-     ```
-   - Run the analysis script (e.g., `analysis.py` or `analysis.R`):
-     ```bash
-     python analysis.py
-     ```
-   - View outputs (e.g., test results, Q-Q plots) in the `outputs/` folder.
-
-4. **Data**:
-   - Place the ESPNcricinfo dataset in the `data/` folder.
-   - Expected format: CSV with columns for runs, wickets, economy, etc.
-
-## Repository Structure
-```
-├── data/                    # ESPNcricinfo dataset (CSV)
-├── scripts/                 # Analysis scripts (Python/R)
-│   ├── analysis.py          # Main statistical tests and indices
-│   ├── plots.py             # Q-Q plots and visualizations
-├── outputs/                 # Test results, plots (e.g., Q-Q plot for catches)
-├── images/                  # Presentation images (e.g., image1.png, image2.png)
-├── Statistical_Analysis_ICT.pptx  # Project presentation
-└── README.md                # This file
-```
-
-## Future Scope
-- Analyze player impact across T20 and Test formats.
-- Compare Indian team stats with other nations (e.g., Australia, England).
-- Apply machine learning for predictive team selection and strategy optimization.
-- Incorporate fielding statistics and multi-year data for holistic insights.
-
+**Prerequisites**:
+  - Python 3.8+ or R for statistical analysis.
+  - Libraries: `pandas`, `numpy`, `scipy`, `statsmodels` (Python) or `stats` (R).
 ## Conclusion
 This project demonstrates the power of statistical analysis in cricket, revealing the Indian Cricket Team’s consistency, adaptability, and balanced performance in ODIs. The proposed team selection, backed by rigorous indices, offers a data-driven approach to optimize line-ups. These insights set a precedent for sports analytics, applicable to roles like NIQ’s Junior ML Engineer, where data-driven decision-making is key.
-
-## References
-- Wikipedia Contributors, “One Day International,” Wikipedia, Oct. 29, 2023. [Link](https://en.wikipedia.org/wiki/One_Day_International)
-- “Predicting Optimal Cricket Team Using Data Analysis,” Research Paper.
-- ESPNcricinfo Stats. [Link](https://stats.espncricinfo.com/ci/engine/stats/index.html)
-
-## Contributors
-- Nidhi Karambelkar (A010)
-- Sean Minezes (A015)
-- Akshay Mirani (A016)
-- Jash Moze (A017)
-- Veer Shah (A020)
-- Mentor: Prof. Vaibhav Vasundekar
-
-## License
-This project is licensed under the MIT License.
